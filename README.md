@@ -3,7 +3,7 @@
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
 </p>
 
-> A automated attacking script for taking over Dji Phantom3 drone with seemless experience.
+> An automated attacking script for taking over Dji Phantom3 drone with seemless experience.
 
 ## Install
 

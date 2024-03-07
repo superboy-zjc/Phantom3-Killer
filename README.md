@@ -23,7 +23,7 @@ pip install -r requirements.txt
 python3 main.py -a [ATTACKER_IP] -i [YOUR_INTERFACE_NAME]
 ```
 
-![Screen Recording 2024-03-07 at 17.29.48](https://api.2h0ng.wiki:443/noteimages/2024/03/07/17-35-48-e4207eef704f09388649d0e25e4d106e.gif)
+![render1709853175528](https://api.2h0ng.wiki:443/noteimages/2024/03/07/18-15-33-10b52aa60e6a17562f30ff20970e0ee4.gif)
 
 ## Author
 

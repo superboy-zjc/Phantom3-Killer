@@ -13,6 +13,12 @@ pip install -r requirements.txt
 
 ## Usage
 
+1️⃣  Login into the DJI Phantom3's wifi network with your phone, and open up the DJI GO App waiting for taking over control of the drone.
+
+2️⃣  Disable the packet forwarding configuration by `sudo sysctl net.ipv4.ip_forward=0
+
+3️⃣  Execute the phantom3-killer:
+
 ```sh
 python3 main.py -a [ATTACKER_IP] -i [YOUR_INTERFACE_NAME]
 ```

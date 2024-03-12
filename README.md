@@ -7,7 +7,21 @@
 
 ## Install
 
+**Docker (Only appliable for Linux OS):**
+
+```
+docker pull zhong8/phantom3-killer:latest
+```
+
+**Terminal:**
+
 ```sh
+# MAC OS
+brew install nmap
+pip install -r requirements.txt
+
+# Linux OS
+apt-get install nmap
 pip install -r requirements.txt
 ```
 
@@ -18,6 +32,15 @@ pip install -r requirements.txt
 2️⃣  Disable the packet forwarding configuration by `sudo sysctl net.ipv4.ip_forward=0`
 
 3️⃣  Execute the phantom3-killer:
+
+**Docker (Only appliable for Linux OS):**
+
+```bash
+# Make ture enable host network mode sharing the interfaces with docker container
+sudo docker run --network="host" phantom3-killer -a [ATTACKER_IP] -i [YOUR_INTERFACE_NAME]
+```
+
+**Terminal:**
 
 ```sh
 python3 main.py -a [ATTACKER_IP] -i [YOUR_INTERFACE_NAME]

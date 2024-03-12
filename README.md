@@ -37,7 +37,7 @@ pip install -r requirements.txt
 
 ```bash
 # Make ture enable host network mode sharing the interfaces with docker container
-sudo docker run --network="host" phantom3-killer -a [ATTACKER_IP] -i [YOUR_INTERFACE_NAME]
+sudo docker run --network="host" zhong8/phantom3-killer:1.0 -a [ATTACKER_IP] -i [YOUR_INTERFACE_NAME]
 ```
 
 **Terminal:**

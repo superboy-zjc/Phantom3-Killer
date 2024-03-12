@@ -10,7 +10,7 @@
 **Docker (Only appliable for Linux OS):**
 
 ```
-docker pull zhong8/phantom3-killer:latest
+docker pull zhong8/phantom3-killer:1.0
 ```
 
 **Terminal:**

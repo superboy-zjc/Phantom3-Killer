@@ -11,5 +11,7 @@ COPY . .
 
 RUN pip install --no-cache-dir -r requirements.txt
 
+ENV PYTHONUNBUFFERED=1
+
 ENTRYPOINT ["python", "./phantom3-killer.py"]
 CMD ["--help"]
